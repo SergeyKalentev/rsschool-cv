@@ -14,14 +14,15 @@ HTML&CSS
 Git
 
 * # Code example
-```function bmi(weight, height) {
+```
+function bmi(weight, height) {
   const bmi = weight/(height*height);
   return bmi <= 18.5 ? 'Underweight': bmi <= 25 ? 'Normal': bmi <= 30 ? 'Overweight': 'Obese';
 };
 ```
 
 * # Experience:
-[rsschool-cv] (https://github.com/SergeyKalentev/rsschool-cv.git)
+[rsschool-cv](https://github.com/SergeyKalentev/rsschool-cv.git)
 I have experience in programming microcontrollers, creating a control G-code for machine tools. Now my interests are concentrated in the field of IoT.
 
 * # Education:

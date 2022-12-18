@@ -1,8 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Document</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+<div class="container">
+  <header class="header">
+    <h1 class="full-name">
+      <span class="first-name">Sergey</span>
+      <span class="last-name">Kalentev</span>
+    </h1>
+    <ul class="contacts">
+      <li><span class="email">Email: <br></span>
+      <span class="email-val">sergius0rex@gmail.com</span></li>
+      <li><span class="discord">Discord: <br></span>
+      <span class="phone-val">Sergey Kalentev#6904</span></li>
+    </ul>
+    <img src="./avatar.png" height="128" width="128" alt="userPic" class="avatar">
+  </header>
+  <div class="about">
+    <span class="position">Front-End Developer </span>
+    <span class="desc">
+      I work as an engineer and I want to get away from the daily routine. I want to keep my mind clear and get the opportunity to reach a new level in my life. I hope my diligence and the courses will help me to obtain useful knowledge. 
+    </span>
+  </div>
+<main class="main">
+  <div class="section">
+    <div class="section-title">
+      <h2>Experience</h2>
+    </div>
+    I have experience in programming microcontrollers, creating a control G-code for CNC. Now my interests are concentrated in the field of IoT.
+  </div>
+
+  <div class="section">
+    <div class="section-title">
+      <h2>Education</h2>
+    </div>
+    <div class="section-list">
+      <div class="section-list-item">
+        <div class="left">
+          <div class="name">Povolzhskiy State University of Telecommunications and Informatics</div>
+        </div>
+        <div class="right">
+          <div class="name">Specialist</div>        
+        </div>
+      </div>
+      <div class="section-list-item">
+        <div class="left">
+          <div class="name">C++ Courses</div>
+        </div>
+        <div class="right">
+          <div class="name">Advanced</div>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">
+        <h2>Code example</h2>
+      </div> 
+
+      <div class="javascript"><ol><li class="li1"><div class="de1"><span class="kw2">function</span> bmi<span class="br0">&#40;</span>weight<span class="sy0">,</span> height<span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li>
+        <li class="li1"><div class="de1">&nbsp; <span class="kw2">const</span> bmi <span class="sy0">=</span> weight<span class="sy0">/</span><span class="br0">&#40;</span>height<span class="sy0">*</span>height<span class="br0">&#41;</span><span class="sy0">;</span></div></li>
+        <li class="li1"><div class="de1">&nbsp; <span class="kw1">return</span> bmi <span class="sy0">&lt;=</span> <span class="nu0">18.5</span> <span class="sy0">?</span> <span class="st0">'Underweight'</span><span class="sy0">:</span> bmi <span class="sy0">&lt;=</span> <span class="nu0">25</span> <span class="sy0">?</span> <span class="st0">'Normal'</span><span class="sy0">:</span> bmi <span class="sy0">&lt;=</span> <span class="nu0">30</span> <span class="sy0">?</span> <span class="st0">'Overweight'</span><span class="sy0">:</span> <span class="st0">'Obese'</span><span class="sy0">;</span></div></li>
+        <li class="li1"><div class="de1"><span class="br0">&#125;</span><span class="sy0">;</span></div></li>
+        </ol></div>
+
+  </div>
+
+    <div class="section">
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+      <div class="section-list">
+        <div class="section-list-item">
+          <ul>
+            <li class="l1">HTML</li>
+            <li class="l2">CSS</li>
+            <li class="l3">C++</li>
+            <li class="l4">Javascript</li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="section">
+    <div class="section-title">
+      <h2>Languages</h2>
+    </div>
+    <div class="section-list">
+      <div class="section-list-item">
+        <ul>
+          <li>Russian (native speaker)</li>
+          <li>English (A2)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="wrapper">
+  <ul class="about">
+    <li><a class="github" href="https://github.com/SergeyKalentev">
+      My GitHub
+    </a></li>
+    <li><h4>2022</h4></li>
+    <li><a class="rsschool" href="https://rs.school/js/">
+      <img src="./rs_school_js.svg" width="86" height="32" alt="RS School">
+    </a></li>
+  </ul> 
+  </div>
+</footer>
+</div>
 </body>
 </html>

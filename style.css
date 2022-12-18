@@ -1,10 +1,240 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     border: none;
-    font-family: Arial, sans-serif;
+  }
+
+  html {
+    height: 100%;
   }
   
   body {
-    font-size: 14px;
+    background: #eee;
+    font-family: "Roboto", "Arial", sans-serif;
+    min-height: 100%;
+    font-weight: normal;
+    color: #222;
+    font-size: 14px;    
+    line-height: 20px;
+    padding-bottom: 50px;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #265301;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #CDFEAA;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+
+  .container {
+    max-width: 700px;
+    background: #fff;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;
+    padding: 40px;
+    margin-top: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .header .full-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .header .first-name {
+    font-weight: bold;
+  }
+  .header .last-name {
+    font-weight: 300;
+  }
+  .header .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .header .email,
+  .header .discord {
+    color: #999;
+    font-weight: 300;
+  }
+ 
+  .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+
+  .main {
+    line-height: 20px;
+  }
+  .main .section {
+    margin: 40px 0px;
+  }
+  .main .section:last-of-type {
+    margin-bottom: 0px;
+  }
+  .main .section-title {
+    letter-spacing: 2px;
+    color: #54AFE4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .main .section-list-item {
+    margin-bottom: 40px;
+  }
+  .main .section-list-item:last-of-type {
+    margin-bottom: 0;
+  }
+  .main .left,
+  .main .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+  .main .left {
+    width: 60%;
+  }
+  .main .right {
+    text-align: right;
+    width: 39%;
+  }
+  .main .name {
+    font-weight: normal;
+  }
+  .footer {
+    background: #999;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+.footer .wrapper {
+  width: 100%;
+}
+
+.footer .about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+   
+/**Code example**/  
+
+  .javascript .de1,
+  .javascript .de2 {
+    font: normal normal 1em/1.2em monospace;
+    margin:0;
+    padding:0;
+    background:none;
+    vertical-align:top;
+    color: #000020;
+  }
+  .javascript  {
+    font-family: monospace;
+    color: #006;
+    border: 1px solid #d0d0d0;
+    background-color: #f0f0f0;
+  }
+  .javascript a:link {
+    color: #000060;
+  }
+  .javascript a:hover {
+    background-color: #f0f000;
+  }
+  .javascript .imp {
+    font-weight: bold;
+    color: red;
+  }
+  .javascript li,
+  .javascript .li1 {
+    font-weight: normal;
+    vertical-align:top;
+    font: normal normal 110% 'Courier New', Courier, monospace;
+    color: #003030;
+  }
+  .javascript .ln {
+    width:1px;
+    text-align:right;
+    margin:0;
+    padding:0 2px;
+    vertical-align:top;
+  }
+  .javascript .kw1 {
+    color: #000066;
+    font-weight: bold;
+  }
+  .javascript .kw2 {
+    color: #003366;
+    font-weight: bold;
+  }
+  .javascript .kw3 {
+    color: #000066;
+  }
+  .javascript .co1 {
+    color: #006600;
+    font-style: italic;
+  }
+  .javascript .co2 {
+    color: #009966;
+    font-style: italic;
+  }
+  .javascript .coMULTI {
+    color: #006600;
+    font-style: italic;
+  }
+  .javascript .es0 {
+    color: #000099;
+    font-weight: bold;
+  }
+  .javascript .br0 {
+    color: #009900;
+  }
+  .javascript .sy0 {
+    color: #339933;
+  }
+  .javascript .st0 {
+    color: #3366CC;
+  }
+  .javascript .nu0 {
+    color: #CC0000;
+  }
+  .javascript .me1 {
+    color: #660066;
+  }
+  .javascript span.xtra {
+    display:block;
   }
